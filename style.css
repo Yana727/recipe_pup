@@ -3,12 +3,43 @@ h1 {
   justify-content: flex-start;
   border-bottom: 2px solid green;
 }
+input {
+  width: 20%;
+  height: 3em;
+  font-size: 1em;
+}
+button {
+  height: 4em;
+  width: 8em;
+  border-radius: 1em;
+  color: red;
+  background-color: white;
+  font-size: 1em;
+  padding: 0.5em;
+}
+body {
+  background-color: #c2d6d6;
+}
 
 .main {
   display: flex;
-  flex-wrap: wrap;
-  padding: 3em;
+  width: 100%;
+  display: flex;
+  align-content: center;
 }
-div {
-  padding: 7em;
+
+.main div {
+  display: flex;
+  width: 20%;
+  border: 2px solid blue;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
+img {
+  width: 50%;
 }
