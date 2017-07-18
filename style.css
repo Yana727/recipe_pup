@@ -1,0 +1,14 @@
+h1 {
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 2px solid green;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3em;
+}
+div {
+  padding: 7em;
+}
